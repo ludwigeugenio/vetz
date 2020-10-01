@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import ProductConfigurator from './components/ProductConfigurator/ProductConfigurator';
+import styled from 'styled-components';
+import api from './constants/api';
+import { ToastsContainer, ToastsStore } from 'react-toasts';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const Container = styled.div`
+		height: 500px;
+		width: 1440px;
+		padding: 0 100px;
+	`;
+
+	return (
+		<div className="App" style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+			<Container>
+				<ProductConfigurator data={api} />
+			</Container>
+			<ToastsContainer store={ToastsStore} />
+		</div>
+	);
 }
 
 export default App;

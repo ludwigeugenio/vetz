@@ -13,6 +13,11 @@
   }
 }
 
+@font-face {
+  font-family: OpenSans;
+  src: url(./assets/fonts/OpenSansRegular.ttf);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +31,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: OpenSans;
+}
+
+.toast-error {
+  background-color: #cd1f25 !important;
+  color: white !important;
+  font-family: OpenSans;
 }
 
 @keyframes App-logo-spin {
