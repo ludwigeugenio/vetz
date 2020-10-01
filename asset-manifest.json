@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vetz/static/css/main.29ac71af.chunk.css",
+    "main.js": "/vetz/static/js/main.fb0f83a3.chunk.js",
+    "main.js.map": "/vetz/static/js/main.fb0f83a3.chunk.js.map",
+    "runtime-main.js": "/vetz/static/js/runtime-main.0e14d5aa.js",
+    "runtime-main.js.map": "/vetz/static/js/runtime-main.0e14d5aa.js.map",
+    "static/js/2.0ac5e0b4.chunk.js": "/vetz/static/js/2.0ac5e0b4.chunk.js",
+    "static/js/2.0ac5e0b4.chunk.js.map": "/vetz/static/js/2.0ac5e0b4.chunk.js.map",
+    "index.html": "/vetz/index.html",
+    "precache-manifest.eabd31420b72d6e5359b23842103ccc6.js": "/vetz/precache-manifest.eabd31420b72d6e5359b23842103ccc6.js",
+    "service-worker.js": "/vetz/service-worker.js",
+    "static/css/main.29ac71af.chunk.css.map": "/vetz/static/css/main.29ac71af.chunk.css.map",
+    "static/js/2.0ac5e0b4.chunk.js.LICENSE.txt": "/vetz/static/js/2.0ac5e0b4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/vetz/static/media/OpenSansRegular.3ed9575d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e14d5aa.js",
+    "static/js/2.0ac5e0b4.chunk.js",
+    "static/css/main.29ac71af.chunk.css",
+    "static/js/main.fb0f83a3.chunk.js"
+  ]
+}
